@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+/*-----first-fdnet section-----*/
+.first-fdnet{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5%;
+    background-image:linear-gradient(135deg,#fff 60%,#fff,rgb(86, 77, 232) 40%)
+}
+.first-fdnet-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat',sans-serif;
+}
+.first-fdnet-text h1{
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.first-fdnet-text h1 span{
+    color:rgb(122, 116, 224) ;
+}
+.first-fdnet-text p{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+.first-fdnet-text a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(122, 116, 224),rgb(86, 77, 232));
+    color: #fff;
+    width: fit-content;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.first-fdnet-image{
+    width: 50%;
+}
+.first-fdnet-image>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.first-fdnet-image img{
+    width: 90%;
+}
+/*----second-fdnet-------*/
+.second-fdnet{
+   /* background-image: url(images/Frame\ 57.jpg);*/
+   background-image:linear-gradient(316deg, rgb(86, 77, 232) 72%, #fff 28%, #fff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    position: relative;
+}
+
+.second-fdnet .first-fdnet-image{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-fdnet .first-fdnet-image>div{
+    width:80%;
+    height: 80%;
+    overflow: hidden;
+    background-color:;
+    background-image: url(images/attractive-man-eating-hamburger-he-260nw-310832510-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:contain;
+    z-index: 20;
+
+}
+.second-fdnet .first-fdnet-text{
+    color: #fff;
+    z-index: 10;
+}
+.second-fdnet .bg-transp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 22, 126, 0.378);
+    z-index:0;
+}
+
+
+/*-----my-recipies section-------*/
+.my-recipies{
+    width: 100%;
+    height: 100vh;
+    padding: 2% 5%;
+}
+.my-recipies h1{
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.my-recipies> p{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0 10%;
+}
+.container-recipies{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-recipies .col-recipies{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-shadow: 2px 2px 10px 3px rgb(190, 190, 190) ;
+    padding: 1%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+
+}
+.col-recipies .image{
+    width: 100%;
+}
+.col-recipies .image img{
+    width: 100%;
+}
+
+
